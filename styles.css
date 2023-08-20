@@ -1,0 +1,69 @@
+body{
+	margin: 100;
+	padding: 0;
+	display: table;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+input{
+	height: 30px;
+	background: #e0dede;
+	justify-content: center;
+	margin: 5px auto;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+select {
+    height: 30px;
+    background: #e0dede;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: sans-serif !important; 
+    text-align: center; 
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+input[type="submit"] {
+       font-size: 20px;
+    font-family: 'Lucida', monospace;
+    color: black; 
+}
+
+input[type="button"] {
+       font-size: 20px;
+    font-family: 'Lucida', monospace;
+    color: black; 
+}
+table td {
+    color: #e0dede; 
+}
+
+label[for="offer"] {
+    font-size: 20px;
+    font-family: 'Lucida', monospace;
+    color: #D9D2F9; 
+}
+
+
+form {color: #D9D2F9; font-size:20px}
+
+h1 {color:#e0dede; border-bottom:15px solid #D9D2F9;}
+h2 {color:#e0dede; font-size:27px;}
+p {color:#e0dede;font-size:22px;font-family:'Lucida', monospace;}
+
+
+
